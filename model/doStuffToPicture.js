@@ -3,7 +3,7 @@ var path = require('path');
 var appDir = path.dirname(require.main.filename);
 
 
-
+//this function is where you would put your image proccessing logic
 function sendBackPic(picPath, userText, callback){
     //slice off the first part of the picture path so we only have the filename
     var picPath = picPath.split("/")[1];
